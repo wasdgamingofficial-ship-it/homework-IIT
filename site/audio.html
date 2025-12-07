@@ -1,0 +1,45 @@
+<!doctype html>
+
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+
+<link href="styles/style1.css" rel="stylesheet">
+
+<html>
+  <header class="site_header">
+   
+    <!-- Имя сайта делаем заголовком верхнего уровня -->
+    <h1 class="site_name">Аудио</h1>
+     
+     
+    <!--  Панель навигации по сайту  -->
+    <nav class="site_nav"> 
+      <!-- Ссылки на страницы сайта -->
+      <a href="index.html">главная страница</a>
+    </nav>
+     
+  </header> 
+       
+  <head>
+    <meta charset="utf-8" />
+    <title>Моя тестовая страница</title>
+</p>
+   
+<!--  Контрольная панель присутствует, воспроизведет только звук  -->
+обычный звук:
+<p>
+  <audio src="audio/mixkit-dog-barking-twice-1.wav" controls autoplay></audio>
+</p>
+ 
+<!--  Воспроизведет звук второго «source»   -->
+зацикленный звук:
+<p>
+  <audio controls loop>
+    <source src="audio/mixkit-dog-barking-twice-1.wav">
+    <source src="audio/mixkit-dog-barking-twice-1.wav">
+  </audio>
+  </head>
+  <body>
+    <audio src="audio/mixkit-dog-barking-twice-1.wav"></audio>
+  </body>
+</html>
+

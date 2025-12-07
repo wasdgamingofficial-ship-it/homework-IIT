@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f5f5f5;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.site_header {
+    background: #2c3e50;
+    color: white;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+}
+
+.site_name {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.site_nav {
+    margin-top: 1rem;
+}
+
+.site_nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 1.5rem;
+    padding: 0.5rem 1rem;
+    background: #34495e;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+.site_nav a:hover {
+    background: #1abc9c;
+}
+
+.site_aside {
+    background: white;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    border-left: 4px solid #3498db;
+}
+
+.adv_block {
+    background: #ecf0f1;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+}
+
+main {
+    background: white;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.site_footer {
+    background: #34495e;
+    color: white;
+    padding: 1.5rem;
+    text-align: center;
+    border-radius: 8px;
+    margin-top: 2rem;
+}
+
+address {
+    font-style: normal;
+    margin-top: 1rem;
+}
+
+time {
+    font-weight: bold;
+}
+
+h1, h2, h3 {
+    color: #2c3e50;
+}
+
+p {
+    margin-bottom: 1rem;
+}
